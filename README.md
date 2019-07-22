@@ -60,14 +60,15 @@ export default function PopoverContainer(props) {
 
 ### Props
 
-| Name              | Type     | Required | Description                          |
-| ----------------- | -------- | -------- | ------------------------------------ |
-| buttonComponent   | `string` | `true`   | the component for button             |
-| dropdownComponent | `object` | `true`   | the component for dropdown           |
-| dropdownAlignment | `object` | `true`   | the component for dropdown alignment |
-| onHover           | `object` | `true`   | option for onHover                   |
-| closeOnScroll     | `object` | `true`   | option for closeOnScroll             |
-| show              | `object` | `true`   | option for show                      |
+| Name              | Type      | Required | Description                          |
+| ----------------- | --------- | -------- | ------------------------------------ |
+| buttonComponent   | `string`  | `true`   | the component for button             |
+| dropdownComponent | `object`  | `true`   | the component for dropdown           |
+| dropdownAlignment | `object`  | `true`   | the component for dropdown alignment |
+| onHover           | `object`  | `true`   | option for onHover                   |
+| closeOnScroll     | `object`  | `true`   | option for closeOnScroll             |
+| show              | `object`  | `true`   | option for show                      |
+| caret             | `boolean` | `true`   | enable caret in popover              |
 
 ### TODO
 
