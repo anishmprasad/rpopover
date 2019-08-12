@@ -62,6 +62,7 @@ export default function PopoverContainer(props) {
 
 | Name                   | Type      | Required | Description                          |
 | ---------------------- | --------- | -------- | ------------------------------------ |
+| containerClass         | `string`  | `true`   | custom class for container           |
 | buttonComponent        | `string`  | `true`   | the component for button             |
 | buttonComponentClass   | `string`  | `true`   | custom class for button              |
 | dropdownComponent      | `object`  | `true`   | the component for dropdown           |
