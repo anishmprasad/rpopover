@@ -1,6 +1,6 @@
 # rpopover
 
-A simple popover Component for React.
+A simple popover component for React.
 
 ### Installation
 
