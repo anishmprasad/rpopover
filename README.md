@@ -78,11 +78,8 @@ export default function PopoverContainer(props) {
 -   [x] Minification
 -   [x] Documentation
 -   [ ] CSS Polishing and Transitions
--   [ ] Production Level
+-   [x] Production Level
 
-### Disclaimer
-
-Under Active Development
 
 ### License
 
