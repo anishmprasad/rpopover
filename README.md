@@ -50,7 +50,7 @@ export default function PopoverContainer(props) {
 				dropdownComponent={<div>dropdown components</div>}
 				dropdownAlignment='right'
 				onHover={false}
-				closeOnScroll={!0}
+				closeOnScroll={false}
 				show={true}
 			/>
 		</div>
