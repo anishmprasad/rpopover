@@ -1,6 +1,6 @@
 # rpopover
 
-A simple popover Component for React.
+A simple popover component for React.
 
 ### Installation
 
@@ -50,7 +50,7 @@ export default function PopoverContainer(props) {
 				dropdownComponent={<div>dropdown components</div>}
 				dropdownAlignment='right'
 				onHover={false}
-				closeOnScroll={!0}
+				closeOnScroll={false}
 				show={true}
 			/>
 		</div>
@@ -62,6 +62,7 @@ export default function PopoverContainer(props) {
 
 | Name                   | Type      | Required | Description                          |
 | ---------------------- | --------- | -------- | ------------------------------------ |
+| containerClass         | `string`  | `true`   | custom class for container           |
 | buttonComponent        | `string`  | `true`   | the component for button             |
 | buttonComponentClass   | `string`  | `true`   | custom class for button              |
 | dropdownComponent      | `object`  | `true`   | the component for dropdown           |
@@ -77,11 +78,8 @@ export default function PopoverContainer(props) {
 -   [x] Minification
 -   [x] Documentation
 -   [ ] CSS Polishing and Transitions
--   [ ] Production Level
+-   [x] Production Level
 
-### Disclaimer
-
-Under Active Development
 
 ### License
 
