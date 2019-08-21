@@ -60,24 +60,24 @@ export default function PopoverContainer(props) {
 
 ### Props
 
-| Name                   | Type      | Required | Description                          |
-| ---------------------- | --------- | -------- | ------------------------------------ |
-| containerClass         | `string`  | `true`   | custom class for container           |
-| buttonComponent        | `string`  | `true`   | the component for button             |
-| buttonComponentClass   | `string`  | `true`   | custom class for button              |
-| dropdownComponent      | `object`  | `true`   | the component for dropdown           |
-| dropdownComponentClass | `object`  | `true`   | custom class for dropdown            |
-| dropdownAlignment      | `object`  | `true`   | the component for dropdown alignment |
-| onHover                | `object`  | `true`   | option for onHover                   |
-| closeOnScroll          | `object`  | `true`   | option for closeOnScroll             |
-| show                   | `object`  | `true`   | option for show                      |
-| caret                  | `boolean` | `true`   | enable caret in popover              |
+| Name                   | Type       | Required | Description                          |
+| ---------------------- | ---------- | -------- | ------------------------------------ |
+| containerClass         | `string`   | `true`   | custom class for container           |
+| buttonComponent        | `string`   | `true`   | the component for button             |
+| buttonComponentClass   | `string`   | `true`   | custom class for button              |
+| dropdownComponent      | `object`   | `true`   | the component for dropdown           |
+| dropdownComponentClass | `object`   | `true`   | custom class for dropdown            |
+| dropdownAlignment      | `object`   | `true`   | the component for dropdown alignment |
+| onHover                | `boolean`  | `true`   | option for onHover                   |
+| closeOnScroll          | `boolean`  | `true`   | option for closeOnScroll             |
+| show                   | `boolean`  | `true`   | option for show                      |
+| caret                  | `boolean`  | `true`   | enable caret in popover              |
 
 ### TODO
 
 -   [x] Minification
 -   [x] Documentation
--   [ ] CSS Polishing and Transitions
+-   [x] CSS Polishing and Transitions
 -   [x] Production Level
 
 
