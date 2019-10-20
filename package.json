@@ -1,6 +1,6 @@
 {
 	"name": "rpopover",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"main": "dist/index.js",
 	"scripts": {
 		"test": "yarn --watchAll"
@@ -15,10 +15,10 @@
 		"url": "https://github.com/anishmprasad/rpopover/issues"
 	},
 	"peerDependencies": {
-		"classnames": "^2.2.6"
+		"react": "^16.8.6"
 	},
 	"dependencies": {
-		"react": "^16.8.6"
+		"classnames": "^2.2.6"
 	},
 	"homepage": "https://github.com/anishmprasad/rpopover#readme",
 	"description": "A simple popover component in react"
