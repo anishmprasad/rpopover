@@ -5,6 +5,10 @@ A simple popover component for React.
 ### Installation
 
 ```
+
+// with react-extensions
+$ npm install react-extensions --save
+
 // with npm
 $ npm install rpopover --save
 
