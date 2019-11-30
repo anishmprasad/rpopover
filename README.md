@@ -6,8 +6,11 @@ A simple popover component for React.
 
 ```
 
-// with react-extensions
+// with npm
 $ npm install react-extensions --save
+
+// with yarn
+$ yarn add react-extensions
 
 // with npm
 $ npm install rpopover --save
